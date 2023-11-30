@@ -1,4 +1,5 @@
 function generateNPC() {
+    console.log("Function executed");
     // Fetch the checkbox values
     const includeName = document.getElementById('includeName').checked;
     const includeSurname = document.getElementById('includeSurname').checked;

@@ -27,4 +27,5 @@ function generateNPC() {
 
     // Display the result
     document.getElementById('npcResult').textContent = npcDescription;
+    
 }

@@ -199,6 +199,20 @@ span.psw {
             <!--login-btn-->
             <a href="#" class="main-login" style="border-radius: 5px;">Create NPC</a>
             </div>
+            
+            <form id="checkboxForm">
+              <label><input type="checkbox" id="includeName"> Include Name</label>
+              <label><input type="checkbox" id="includeSurname"> Include Surname</label>
+              <label><input type="checkbox" id="includeDescription"> Include Brief Description</label>
+              <label><input type="checkbox" id="includeWantsAndNeeds"> Include Wants and Needs</label>
+              <label><input type="checkbox" id="includeSecretOrObstacle"> Include Secret or Obstacle</label>
+              <label><input type="checkbox" id="includeAlsoCarrying"> Include Also Carrying</label>
+              <button type="button" onclick="generateNPC()">Generate NPC</button>
+          </form>
+          <div id="npcResult"></div>
+          
+      
+          <script src="script.js"></script>
             <!--img-->
             <div class="home-img" style="width: 500px;">
                 <img src="images/hero.png" width="500px" style="text-shadow: 20px 22px;"/>

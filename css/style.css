@@ -103,15 +103,18 @@ nav ul li a:hover{
     color:#22252e;
     letter-spacing: 1px;
     font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     margin: 0px;
 }
 .home-text p{
     font-size: 1rem;
     color:#777474;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .home-text span{
     color: #F14D5D;
     text-decoration: underline;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .checkbox-container {
     margin-top: 20px;
@@ -336,6 +339,7 @@ nav ul li a:hover{
 .about-text{
     width:500px;
     margin: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .about-text h1{
     font-size: 3.5rem;
@@ -344,14 +348,17 @@ nav ul li a:hover{
     letter-spacing: 1px;
     font-weight: 700;
     margin: 0px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .about-text p{
     font-size: 1rem;
     color:#777474;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .about-text span{
     color: #F14D5D;
     text-decoration: underline;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .about-login{
     width:120px;
@@ -515,6 +522,7 @@ nav .menu-btn{
         flex-direction: column;
         height: 45vh;
         margin: 0px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     .home-content{
         text-align: center;
@@ -528,11 +536,13 @@ nav .menu-btn{
         color:rgb(0, 0, 0);
         padding: 0px 20px;
         font-size: 2.5rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     .home-text p{
         color:rgba(32, 32, 32, 0.85);
         margin: 10px 0px 20px 0px;
         width:50%;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     
     .about-img{
@@ -540,6 +550,7 @@ nav .menu-btn{
     }
     .about-text{
         width:100%;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
         justify-content: center;
         align-items: center;
         display: flex;
@@ -559,11 +570,13 @@ nav .menu-btn{
         color:rgb(0, 0, 0);
         padding: 0px 20px;
         font-size: 2.5rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     .about-text p{
         color:rgba(32, 32, 32, 0.85);
         margin: 10px 0px 20px 0px;
         width:50%;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     
     .arrow{
@@ -588,6 +601,7 @@ nav .menu-btn{
     .home-text p{
         width:70%;
         text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     .home-content h1{
         font-size: 1.9rem;
@@ -597,6 +611,7 @@ nav .menu-btn{
     .about-text p{
         width:70%;
         text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
     .about-content h1{
         font-size: 1.9rem;

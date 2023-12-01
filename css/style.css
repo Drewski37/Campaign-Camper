@@ -113,6 +113,40 @@ nav ul li a:hover{
     color: #F14D5D;
     text-decoration: underline;
 }
+.checkbox-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#checkboxForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#checkboxForm label {
+    margin-bottom: 10px;
+}
+
+#checkboxForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #F14D5D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#checkboxForm button:hover {
+    background-color: #fd0000;
+}
+
+#npcResult {
+    margin-top: 20px;
+    text-align: center;
+}
 .main-login{
     width:120px;
     height:40px;

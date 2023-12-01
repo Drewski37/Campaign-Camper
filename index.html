@@ -199,22 +199,26 @@ span.psw {
         <div class="home-content">
             
             <!--text-->
-            <div class="home-text" >                
-                <h3 style="color: white; letter-spacing: 3px;">Welcome to Drewski's Campaign Camper</h3>
-                <h1 style="color: white;"> NPC Generator</h1>
-                <p style="color: white;">Check the boxes provided to get as much, or as little, detail about your new NPC as you would like!</p>
+<div class="home-text">
+    <h3 style="color: white; letter-spacing: 3px;">Welcome to Drewski's Campaign Camper</h3>
+    <h1 style="color: white;">NPC Generator</h1>
+    <p style="color: white;">Check the boxes provided to get as much, or as little, detail about your new NPC as you would like!</p>
             </div>
             
-            <form id="checkboxForm">
-              <label><input type="checkbox" id="includeName"> Include Name</label>
-              <label><input type="checkbox" id="includeSurname"> Include Surname</label>
-              <label><input type="checkbox" id="includeDescription"> Include Brief Description</label>
-              <label><input type="checkbox" id="includeWantsAndNeeds"> Include Wants and Needs</label>
-              <label><input type="checkbox" id="includeSecretOrObstacle"> Include Secret or Obstacle</label>
-              <label><input type="checkbox" id="includeAlsoCarrying"> Include Also Carrying</label>
-              <button type="button" onclick="generateNPC()">Generate NPC</button>
-          </form>
-          <div id="npcResult"></div>
+           <div class="checkbox-container">
+        <form id="checkboxForm">
+            <label><input type="checkbox" id="includeName"> Include Name</label>
+            <label><input type="checkbox" id="includeSurname"> Include Surname</label>
+            <label><input type="checkbox" id="includeDescription"> Include Brief Description</label>
+            <label><input type="checkbox" id="includeWantsAndNeeds"> Include Wants and Needs</label>
+            <label><input type="checkbox" id="includeSecretOrObstacle"> Include Secret or Obstacle</label>
+            <label><input type="checkbox" id="includeAlsoCarrying"> Include Also Carrying</label>
+            <button type="button" onclick="generateNPC()">Generate NPC</button>
+        </form>
+    </div>
+    
+    <div id="npcResult"></div>
+            </div>
                     
           
 
